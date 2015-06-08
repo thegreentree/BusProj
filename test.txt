@@ -1,2 +1,1 @@
-test Ubuntu
 test windows by tree
