@@ -29,6 +29,8 @@ class MyAdapter(requests.adapters.HTTPAdapter):
 
 
 if __name__ == '__main__':
+    #查询请求
+    #url = "http://127.0.0.1:8000/?PacketType=1&IMEI=xiaomi&BusLineNum=1&Direction=0&X=0.11&Y=0.22&Z=0.33"
     #提交数据URL
     url = "http://127.0.0.1:8000/?PacketType=3&Username=testUser&IMEI=xiaomi&PacketTime=2015-05-28:14:10:28&X1=1.11&Y1=1.22&Z1=1.33&X2=2.11&Y2=2.22&Z2=2.33&X3=3.11&Y3=3.22&Z3=3.33&X4=4.11&Y4=4.22&Z4=4.33&StationID=testStation&SignalTime=2014-05-28:14:13:70&WiFiID=treeWifi&WiFiIntensity=32.4&GPS_X=1&GPS_Y=2&GPS_Z=3"
     #注册用户URL
